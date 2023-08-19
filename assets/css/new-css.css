@@ -1,0 +1,321 @@
+/*
+*
+Navbar Stylesheet
+*
+*/
+.top-bar{
+    padding: 0!important;
+}
+.top-bar .left-box a img{
+    width: 100px;
+    height: auto;
+}
+.left-box a img{
+    display: inline-block;
+    width: 10%!important;
+    vertical-align: middle;
+}
+.left-box a h2{
+    font-size: 18px;
+    display: inline-block;
+    width: 50%;
+    margin-left: 10px!important;
+    vertical-align: middle;
+}
+.top-bar .container{
+    width: 100%;
+    background: #42730600;
+    overflow: hidden;
+    padding: 20px 0;
+    transition: 0.4s;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.top-bar .cnt-account{
+    padding: 0!important;
+    width: 100%;
+    margin: 0 auto;
+}
+.top-bar .cnt-account ul {
+    text-align: end;
+}
+.top-bar .cnt-account ul > li,
+.top-bar .cnt-account ul > li:last-child{
+    padding: 10px!important;
+    border:none;
+    font-size: 15px;
+    font-family: "Poppins", Sans-serif;
+}
+.top-bar .cnt-account ul li:hover{
+    color: #427306;
+}
+.top-bar .cnt-account {
+    float:none!important;
+}
+.top-bar .left-box,
+.top-bar .right-box{
+    display: inline-block;
+    width: 49%;
+}
+.top-bar .left-box{
+    padding: 0 0 0 20px;
+}
+.top-bar h2, .top-bar .cnt-account ul > li a {
+    color: white;
+    margin: 0!important;
+}
+.list-unstyled .user-accounnt {
+    text-align: start!important;
+    vertical-align: top;
+}
+.list-unstyled div{
+    display: inline-block;
+}
+.navbar {
+    overflow: hidden;
+    margin: 0!important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0!important;
+  }
+.dropdown {
+    float: left;
+    overflow: hidden!important;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: none;
+    transition: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 116px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block!important;
+  }
+/*
+*
+Title Page Stylesheet
+*
+*/
+.header-nav.animate-dropdown .container{
+    width: 1500px;
+}
+.title-section{
+    height: 70vh;
+    background-image: url(../../img/bg13.jpg)!important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0!important; 
+    width: 100%;
+    margin: 0;
+}
+.title-section center {
+    padding: 50vh 0 0 0;
+}
+.title-section div {
+    height: 100%;
+    background: #0000005c;
+}
+.title-section span{
+    display: block;
+    margin-block: 0;
+    padding: 0;
+    font-size: 75px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+.button-start {
+    height: 45px!important;
+    width: 190px;
+    text-align: center;
+    color: white!important;
+    background: #00ff0000!important;
+    border: 2px solid white;
+    margin: 0 auto;
+    padding: 6px;
+    border-radius: 8px;
+}
+.button-start a {
+    color: white;
+    font-size: 20px;
+}
+/*
+*
+Footer Stylesheet
+*
+*/
+.footer .links-social{
+    background-color: #212529!important;
+    margin: 0;
+    padding: 60px 0;
+    color:white;
+}
+.footer .module-title, .footer .contact-information .media .media-body a{
+    color: white;
+}
+.contact-information {
+    margin: 0 0 0 50px;
+}
+.footer-logo .logo h3{
+    color: white;
+}
+
+
+
+/*
+*
+Products Section Stylesheet
+*
+*/
+/*#box1 {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: -3px 6px 20px rgba(0, 0, 0, 0.25);
+}*/
+.sidebar,.homebanner-holder {
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: -3px 6px 20px rgba(0, 0, 0, 0.25);
+}
+.img-responsive {
+    border-radius: 15px;
+    box-shadow: -3px 6px 20px rgba(0, 0, 0, 0.25);
+}
+.scroll-tabs .more-info-tab{
+    margin: 80px 0 0 0;
+}
+.products {
+    box-shadow: -3px 6px 20px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    padding: 0 0 15px 0;
+    border-radius: 15px;
+}
+.products img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+.products .name{
+    margin-bottom: 0!important;
+    text-align: center;
+}
+.product-price {
+    display: block;
+    text-align: center;
+}
+.furniture-container .product .btn-primary{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+.col-lg-4 {
+    width: 50%!important;
+}
+.product .cart .action ul li.add-cart-button .btn.btn-primary.icon{
+    border-radius: 6px;
+}
+.cart .action{
+    float: none;
+    margin:0 0 0 30px;
+}
+.add-cart-button a{
+    margin-left: 10px;
+}
+/*
+*
+Login Page Stylesheet
+*
+*/
+.sign-in, .create-new-account {
+    padding: 50px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: -3px 6px 20px rgba(0, 0, 0, 0.25);
+    width: 48%!important;
+}
+/*
+*
+My Wishist Stylesheet
+*
+*/
+.my-wishlist .table,
+.shopping-cart .shopping-cart-table table,
+.table-bordered{
+    padding: 50px;
+    box-shadow: -3px 6px 20px rgba(0, 0, 0, 0.25);
+}
+.body-content .my-wishlist-page .my-wishlist table > thead > tr > th,
+.body-content .my-wishlist-page .my-wishlist table > thead > tr,
+.body-content .my-wishlist-page .my-wishlist table {
+    border: 2px solid #ddd;
+}
+.my-wishlist .table img{
+    width: auto;
+    object-fit: cover;
+    height: 200px;
+}
+
+/*
+Product Details CSS
+*/
+.product-info-block .product-info h1, .single-product .sidebar .sidebar-module-container .sidebar-widget .section-title{
+    margin-bottom:0;
+}
+.img-responsive{
+    box-shadow: 0!important;
+}
+.row.wow.fadeInUp.animated, .single-product .product-tabs, section.section.featured-product.wow.fadeInUp.animated{
+    padding:10px;
+    margin: 10px;
+    box-shadow: -3px 6px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.gallery-holder{
+    padding: 0;
+}
